@@ -1,0 +1,37 @@
+Strings are immutable in Java because when a string
+is created, it is sent to the String pool. If 
+we try to change contents of the string variable
+then it throws an error. 
+
+The difference between String and String Builder
+is that String is immutable but String Builder's
+are mutable. 
+
+The methods of String class are as follows:
+
+1. String.charAt(index);
+
+- String s = "Masai";
+- System.out.println(s.charAt(1));
+- output is 'a';
+
+2. String.equals(str);
+
+- String s = "Masai";
+- String s1 = "Masai";
+- s.equals(s1);
+
+3. String.length();
+
+- String s = "Masai";
+- s.length();
+
+4. String.indexOf();
+
+- String s = "Masai";
+- s.indexOf('a');
+
+5. String.isEmpty();
+
+- String s = "Masai";
+- s.isEmpty();
